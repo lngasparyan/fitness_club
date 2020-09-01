@@ -1,4 +1,2 @@
 # fitness_club
-<video width="400" height="300" controls="controls" poster="video/duel.jpg">
-   <source src="video/video_fit.wmv" type='video/webm; codecs="vp8, vorbis"'>
-  </video>
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
