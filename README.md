@@ -1,2 +1,2 @@
 # fitness_club
-![me](https://github.com/Daisyliu6/Daisyliu6/blob/master/me.gif)
+![me](https://j.gifs.com/81Z5Jm.gif)
