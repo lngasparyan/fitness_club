@@ -1,2 +1,2 @@
 # fitness_club
-![me](https://gifs.com/gif/81Z5Jm)
+![me](https://github.com/fitness_club/video/video/video_fit.wmv)
