@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #FB5B21;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+    position: relative;
+}
+
+nav img {
+    width: 100%;
+}
+
+header {
+    background-image: url(image/fitness-image-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+} 
+
+.overlay {
+    height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.49);
+    position: fixed;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.description span {
+    color: #FFF;
+}
+
+ h3 {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+sup {
+    top: -3em;
+    font-size: 20px;
+}
+
+p {
+    color: #FFF;
+}
+
+.description p {
+    color:#FFF;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.description button {
+    border:1px  solid #F97300;
+    background:#FB5B21;
+    color:#fff;
+}
+
+section {
+    background-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.about-img {
+    width: 600px;
+    height: 400px;
+    margin-top: -10%;
+}
+
+.odd-block {
+    background-image: url(image/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+}
+
+.blog {
+    margin: 4em 0;
+    position: relative; 
+}
+
+.blog .card {
+    border: 4px solid #FB5B21;
+    margin-top: 4rem; 
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card-title {
+    color:#F97300; 
+}
+.blog .card-body {
+    padding: 1em;
+    background-color: #000;
+    height: 16rem;
+}
+
+li {
+    list-style-position:inside;
+    list-style-type:square;
+    font-weight: bold;
+}
+
+.team {
+    margin: 10rem 0;
+    position: relative;  
+}
+
+.team .item {
+    position: relative;
+}
+
+.team .des {
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+}
+
+.team .item:hover .des {
+    height: 100%;
+    background:#f973007d;
+    position: absolute;
+    width: 92%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.contact-form {
+    margin: 5em 0;
+    position: relative;  
+}
+
+.contact-form .right {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .right .btn-secondary {
+    background:  #FB5B21;
+    color: #fff;
+    border:0;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+.about-us div {
+     margin-top: -16%;
+     font-size: 70px;
+     margin-left: 25%;       
+}
+
+.facilities div{
+     margin-top: -16%;
+     font-size: 70px;
+     margin-left: 25%;       
+}
+
+.services div {
+     margin-top: -8%;
+     font-size: 70px;
+     margin-left: 12%;
+}
+
+.trainers div {
+    margin-top: -8%;
+    font-size: 70px;
+    margin-left: 12%;
+} 
+
+.contact div {
+    margin-top: -6%;
+    font-size: 50px;
+    margin-left: 24%;
+}
+
+@media screen and (max-width:991px) {
+    h3 {
+        font-size: 4rem;
+    }
+    
+    section {
+        flex-wrap: wrap;
+    }
+    
+    .description p {
+        font-size: 1.2rem;
+    }
+    
+    .about-img {
+        width: 344px;
+        height: 330px;
+        margin-top: 10px; 
+    }
+    
+    sup {
+        top: -2em;
+        font-size: 16px;
+    }
+    
+    .about-us div{
+        margin-top: -15%;
+        font-size: 44px;
+    }
+    
+    .services div {
+        margin-top: -12%;
+        font-size: 31px;
+        margin-left: 25%;
+    }
+    
+    .blog .card {
+        margin-top: 1rem;
+    }
+    
+    .service {
+        height: 2050px;
+    }
+    
+    .facilities div {
+        margin-top: -14%;
+        font-size: 38px;
+    }
+    
+    .trainers div {
+        margin-top: -11%;
+        font-size: 29px;
+        margin-left: 26%;
+    }
+    
+    .trainer{
+        height: 960px;
+    }
+    
+    .team {
+        margin: 3rem 0;
+    }
+    
+    .contact div {
+        margin-top: -13%;
+        font-size: 26px;
+        margin-left: 36%;
+    }
+    .contact-form {
+        margin: 3em 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .about-img {
+        margin-top: 0; 
+    }
+    
+    .about-us div {
+        font-size: 44px;
+        margin-left: 20%;
+    }   
+    
+    .services div {
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+    
+    .service {
+        height: 1150px;
+    }
+    
+    .facilities div {
+        margin-top: -11%;
+        margin-left: 20%;
+    }
+    
+    .trainers div {
+        margin-top: -4%;
+        margin-left: 9%;
+    }
+    
+    .trainer{
+        height: 400px;
+    }
+    
+    .contact div {
+        margin-top: -5%;
+        margin-left: 16%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px){
+    h3 {
+    font-size: 7rem;
+    }
+    
+    .about-us div {
+        margin-top: -19%;
+    }
+    
+    .services div {
+        margin-top: -9%;
+    }
+    
+    facilities div {
+        margin-top: -19%;
+    }
+    
+    .about-img {
+        width: 500px;
+    }
+    
+    .trainers div {
+        margin-top: -9%;
+        margin-left: 13%;
+    }
+    
+    .contact div {
+        margin-left: 28%;
+    }
+}
